@@ -1,0 +1,117 @@
+{
+    "manufacturer": "Erik Frankling",
+    "keyboard_name": "dactyl_manuform_5x6_64",
+    "maintainer": "ErikFrankling",
+    "development_board": "promicro",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "console": true
+    },
+    "matrix_pins": {
+        "cols": ["D4", "C6", "D7", "E6", "B4", "B5"],
+        "rows": ["F6", "F7", "B1", "B3", "B2", "B6"]
+    },
+    "url": "git@github.com:ErikFrankling/dactyl-manuform-keyboard.git",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x8385",
+        "vid": "0xFEED"
+    },
+    "split": {
+        "enabled": true,
+        "serial": {
+            "pin": "D3"
+        }
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label": "K00 (F6,D4)", "matrix": [0, 0], "x": 0, "y": 1.25},
+                {"label": "K01 (F6,C6)", "matrix": [0, 1], "x": 1, "y": 1.25},
+                {"label": "K02 (F6,D7)", "matrix": [0, 2], "x": 2, "y": 1},
+                {"label": "K03 (F6,E6)", "matrix": [0, 3], "x": 3, "y": 1},
+                {"label": "K04 (F6,B4)", "matrix": [0, 4], "x": 4, "y": 1},
+                {"label": "K05 (F6,B5)", "matrix": [0, 5], "x": 5, "y": 1},
+
+                {"label": "K60 (F6,D4)", "matrix": [6, 0], "x": 12, "y": 1},
+                {"label": "K61 (F6,C6)", "matrix": [6, 1], "x": 13, "y": 1},
+                {"label": "K62 (F6,D7)", "matrix": [6, 2], "x": 14, "y": 1},
+                {"label": "K63 (F6,E6)", "matrix": [6, 3], "x": 15, "y": 1},
+                {"label": "K64 (F6,B4)", "matrix": [6, 4], "x": 16, "y": 1.25},
+                {"label": "K65 (F6,B5)", "matrix": [6, 5], "x": 17, "y": 1.25},
+
+
+
+                {"label": "K10 (F7,D4)", "matrix": [1, 0], "x": 0, "y": 2.25},
+                {"label": "K11 (F7,C6)", "matrix": [1, 1], "x": 1, "y": 2.25},
+                {"label": "K12 (F7,D7)", "matrix": [1, 2], "x": 2, "y": 2},
+                {"label": "K13 (F7,E6)", "matrix": [1, 3], "x": 3, "y": 2},
+                {"label": "K14 (F7,B4)", "matrix": [1, 4], "x": 4, "y": 2},
+                {"label": "K15 (F7,B5)", "matrix": [1, 5], "x": 5, "y": 2},
+
+                {"label": "K70 (F7,D4)", "matrix": [7, 0], "x": 12, "y": 2},
+                {"label": "K71 (F7,C6)", "matrix": [7, 1], "x": 13, "y": 2},
+                {"label": "K72 (F7,D7)", "matrix": [7, 2], "x": 14, "y": 2},
+                {"label": "K73 (F7,E6)", "matrix": [7, 3], "x": 15, "y": 2},
+                {"label": "K74 (F7,B4)", "matrix": [7, 4], "x": 16, "y": 2.25},
+                {"label": "K75 (F7,B5)", "matrix": [7, 5], "x": 17, "y": 2.25},
+
+
+
+                {"label": "K20 (B1,D4)", "matrix": [2, 0], "x": 0, "y": 3.25},
+                {"label": "K21 (B1,C6)", "matrix": [2, 1], "x": 1, "y": 3.25},
+                {"label": "K22 (B1,D7)", "matrix": [2, 2], "x": 2, "y": 3},
+                {"label": "K23 (B1,E6)", "matrix": [2, 3], "x": 3, "y": 3},
+                {"label": "K24 (B1,B4)", "matrix": [2, 4], "x": 4, "y": 3},
+                {"label": "K25 (B1,B5)", "matrix": [2, 5], "x": 5, "y": 3},
+
+                {"label": "K80 (B1,D4)", "matrix": [8, 0], "x": 12, "y": 3},
+                {"label": "K81 (B1,C6)", "matrix": [8, 1], "x": 13, "y": 3},
+                {"label": "K82 (B1,D7)", "matrix": [8, 2], "x": 14, "y": 3},
+                {"label": "K83 (B1,E6)", "matrix": [8, 3], "x": 15, "y": 3},
+                {"label": "K84 (B1,B4)", "matrix": [8, 4], "x": 16, "y": 3.25},
+                {"label": "K85 (B1,B5)", "matrix": [8, 5], "x": 17, "y": 3.25},
+
+
+
+                {"label": "K30 (B3,D4)", "matrix": [3, 0], "x": 0, "y": 4.25},
+                {"label": "K31 (B3,C6)", "matrix": [3, 1], "x": 1, "y": 4.25},
+                {"label": "K32 (B3,D7)", "matrix": [3, 2], "x": 2, "y": 4},
+                {"label": "K33 (B3,E6)", "matrix": [3, 3], "x": 3, "y": 4},
+                {"label": "K34 (B3,B4)", "matrix": [3, 4], "x": 4, "y": 4},
+                {"label": "K35 (B3,B5)", "matrix": [3, 5], "x": 5, "y": 4},
+
+                {"label": "K90 (B3,D4)", "matrix": [9, 0], "x": 12, "y": 4},
+                {"label": "K91 (B3,C6)", "matrix": [9, 1], "x": 13, "y": 4},
+                {"label": "K92 (B3,D7)", "matrix": [9, 2], "x": 14, "y": 4},
+                {"label": "K93 (B3,E6)", "matrix": [9, 3], "x": 15, "y": 4},
+                {"label": "K94 (B3,B4)", "matrix": [9, 4], "x": 16, "y": 4.25},
+                {"label": "K95 (B3,B5)", "matrix": [9, 5], "x": 17, "y": 4.25},
+
+
+
+                {"label": "K42 (B2,D7)", "matrix": [4, 2], "x": 2, "y": 5},
+                {"label": "K43 (B2,E6)", "matrix": [4, 3], "x": 3, "y": 5},
+                {"label": "K44 (B2,B4)", "matrix": [4, 4], "x": 4.25, "y": 5.25},
+                {"label": "K45 (B2,B5)", "matrix": [4, 5], "x": 5.25, "y": 5.25},
+
+                {"label": "KA0 (B2,D4)", "matrix": [10, 0], "x": 11.75, "y": 5.25},
+                {"label": "KA1 (B2,C6)", "matrix": [10, 1], "x": 12.75, "y": 5.25},
+                {"label": "KA2 (B2,D7)", "matrix": [10, 2], "x": 14, "y": 5},
+                {"label": "KA3 (B2,E6)", "matrix": [10, 3], "x": 15, "y": 5},
+
+
+
+                {"label": "K52 (B6,D7)", "matrix": [5, 2], "x": 6.25, "y": 6.25},
+                {"label": "K53 (B6,E6)", "matrix": [5, 3], "x": 7.25, "y": 6.25},
+                {"label": "K54 (B6,B4)", "matrix": [5, 4], "x": 6.25, "y": 5.25},
+                {"label": "K55 (B6,B5)", "matrix": [5, 5], "x": 7.25, "y": 5.25},
+
+                {"label": "KB0 (B6,D4)", "matrix": [11, 0], "x": 9.75, "y": 5.25},
+                {"label": "KB1 (B6,C6)", "matrix": [11, 1], "x": 10.75, "y": 5.25},
+                {"label": "KB2 (B6,D7)", "matrix": [11, 2], "x": 9.75, "y": 6.25},
+                {"label": "KB3 (B6,E6)", "matrix": [11, 3], "x": 10.75, "y": 6.25}
+            ]
+        }
+    }
+}
