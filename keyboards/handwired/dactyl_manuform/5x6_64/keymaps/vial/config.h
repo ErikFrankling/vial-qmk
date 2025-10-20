@@ -30,3 +30,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // Reducing the number of layers to save space
 #define DYNAMIC_KEYMAP_LAYER_COUNT 2
+
+#define UNICODE_SELECTED_MODES UNICODE_MODE_LINUX
